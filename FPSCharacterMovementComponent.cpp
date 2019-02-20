@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2019 Dulan Wettasinghe. All Rights Reserved.
 
 #include "FPSCharacterMovementComponent.h"
 #include "Curves/CurveFloat.h"
