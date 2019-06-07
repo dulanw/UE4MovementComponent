@@ -58,7 +58,7 @@ float UFPSCharacterMovementComponent::GetMaxSpeed() const
 float UFPSCharacterMovementComponent::GetMaxAcceleration() const
 {
 	float CurrentMaxAccel = Super::GetMaxAcceleration();
-	if (IsSprinting())
+	if (IsSprinting() && SprintAccelerationCurve)
 	{
 		float CurrentSpeed = Velocity.Size();
 		float SprintMultiplier = SprintAccelerationCurve->GetFloatValue(CurrentSpeed / GetMaxSpeed());
