@@ -1,4 +1,10 @@
 # UE4MovementComponent
+
+## Update
+The movement component is getting reworked to make easily extensible, the prone movement is getting reworked and vaulting will be implemented soon.
+Now your pawn will need to be a child of the FPSCharacterBase.
+
+## Old
 Custom Movement Component extends the default Character Movement Component adding crouch time, prone and sprinting.
 Fully networked and ready for use with multiplayer, prone is current work-in-progress, works fine in flat plane/terrain.
 
