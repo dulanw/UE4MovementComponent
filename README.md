@@ -4,6 +4,9 @@
 The movement component is getting reworked to make easily extensible, the prone movement is getting reworked and vaulting will be implemented soon.
 Now your pawn will need to be a child of the FPSCharacterBase.
 
+#### Sprint Curve
+This is a curve used to output a multiplier to be used for the acceleration, the x-axis should be between 0 and 1 and the Y-axis as your output multiplier, this can be any value you want.
+
 ## Old
 Custom Movement Component extends the default Character Movement Component adding crouch time, prone and sprinting.
 Fully networked and ready for use with multiplayer, prone is current work-in-progress, works fine in flat plane/terrain.
